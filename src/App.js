@@ -1066,8 +1066,8 @@ const ModuleFooter = () => (
                 </div>
                 <div className="text-gray-300 text-sm md:col-span-1">
                      <h4 className="font-semibold text-white mb-3">Liên hệ</h4>
-                     <p className="flex items-center mb-2"><Mail className="w-4 h-4 mr-2 flex-shrink-0"/> info@OrigoX.com.vn</p>
-                     <p className="flex items-center"><Phone className="w-4 h-4 mr-2 flex-shrink-0"/> (+84) 0913075495</p>
+                     <p className="flex items-center mb-2"><Mail className="w-4 h-4 mr-2 flex-shrink-0"/> IB@Starconsulting.com.vn</p>
+                     <p className="flex items-center"><Phone className="w-4 h-4 mr-2 flex-shrink-0"/> (+84) 968261725</p>
                 </div>
                  <div className="text-gray-300 text-sm md:col-span-1">
                      <h4 className="font-semibold text-white mb-3">Trụ sở</h4>
