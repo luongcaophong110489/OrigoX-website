@@ -2131,7 +2131,7 @@ const ContactPage = ({ t }) => {
                      <div className="space-y-8">
                          <div className="bg-white p-8 rounded-lg shadow-lg border">
                             <h3 className="text-2xl font-bold mb-4">Thông tin liên hệ</h3>
-                            <p className="flex items-start mb-4"><Mail className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <a href="mailto:info@OrigoX.com.vn" className="text-gray-700 hover:text-blue-600">info@OrigoX.com.vn</a></p>
+                            <p className="flex items-start mb-4"><Mail className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <a href="mailto:IB@Starconsulting.com.vn" className="text-gray-700 hover:text-blue-600">IB@Starconsulting.com.vn</a></p>
                             <p className="flex items-start mb-4"><Phone className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <span className="text-gray-700">(+84) 0913075495</span></p>
                              <p className="flex items-start"><Globe className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <span className="text-gray-700">Tầng 2, 29 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Thành phố Hà Nội</span></p>
                         </div>
