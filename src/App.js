@@ -135,7 +135,7 @@ const parseFinancialString = (str) => {
 // --- i18n TRANSLATION OBJECT ---
 const translations = {
     en: {
-        moduleTitle: "Investment Banking - Starconsulting",
+        moduleTitle: "Investment Banking - OrigoX",
         navResearchHub: "Research Hub",
         navMA: "M&A Advisory",
         navCapital: "Capital Markets",
@@ -157,7 +157,7 @@ const translations = {
         partnersSubtitle: "We are proud to partner with and create value for leading domestic and international organizations.",
         accessCenter: "Access Center",
         researchHubTitle: "Research Center",
-        researchHubSubtitle: "The gateway to the world of analysis, data, and proprietary intellectual products of Starconsulting.",
+        researchHubSubtitle: "The gateway to the world of analysis, data, and proprietary intellectual products of OrigoX.",
         marketSnapshotTitle: "Market Snapshot",
         featuredThisMonth: "Featured This Month",
         warRoomTeaserText: "We are analyzing the scenarios and potential impacts. Follow our thought process in the War Room.",
@@ -259,7 +259,7 @@ const translations = {
         }
     },
     vi: {
-        moduleTitle: "Investment Banking - Starconsulting",
+        moduleTitle: "Investment Banking - OrigoX",
         navResearchHub: "Trung tâm Research",
         navMA: "Tư vấn M&A",
         navCapital: "Tư vấn Thị trường Vốn",
@@ -281,7 +281,7 @@ const translations = {
         partnersSubtitle: "Chúng tôi tự hào được đồng hành và tạo ra giá trị cho các tổ chức hàng đầu trong và ngoài nước.",
         accessCenter: "Truy cập Trung tâm",
         researchHubTitle: "Trung tâm Research",
-        researchHubSubtitle: "Cổng vào thế giới phân tích, dữ liệu và các sản phẩm trí tuệ độc quyền của Starconsulting.",
+        researchHubSubtitle: "Cổng vào thế giới phân tích, dữ liệu và các sản phẩm trí tuệ độc quyền của OrigoX.",
         marketSnapshotTitle: "Tổng quan Thị trường",
         featuredThisMonth: "Tiêu điểm tháng này",
         warRoomTeaserText: "Chúng tôi đang phân tích các kịch bản và những tác động tiềm tàng. Theo dõi quá trình tư duy của chúng tôi tại Phòng họp Chiến lược.",
@@ -384,7 +384,7 @@ const translations = {
     },
     // --- Other languages (fr, zh, ja) need to be updated with the new fields too ---
     fr: {
-        moduleTitle: "Banque d'Investissement - Starconsulting",
+        moduleTitle: "Banque d'Investissement - OrigoX",
         navResearchHub: "Centre de Recherche",
         navMA: "Conseil M&A",
         navCapital: "Marchés des Capitaux",
@@ -406,7 +406,7 @@ const translations = {
         partnersSubtitle: "Nous sommes fiers de collaborer avec et de créer de la valeur pour des organisations nationales et internationales de premier plan.",
         accessCenter: "Accéder au Centre",
         researchHubTitle: "Centre de Recherche",
-        researchHubSubtitle: "La passerelle vers le monde de l'analyse, des données et des produits intellectuels exclusifs de Starconsulting.",
+        researchHubSubtitle: "La passerelle vers le monde de l'analyse, des données et des produits intellectuels exclusifs de OrigoX.",
         marketSnapshotTitle: "Aperçu du Marché",
         featuredThisMonth: "À la une ce mois-ci",
         warRoomTeaserText: "Nous analysons les scénarios et les impacts potentiels. Suivez notre processus de réflexion dans la Salle de Stratégie.",
@@ -508,7 +508,7 @@ const translations = {
         }
     },
     zh: {
-        moduleTitle: "投资银行 - Starconsulting",
+        moduleTitle: "投资银行 - OrigoX",
         navResearchHub: "研究中心",
         navMA: "并购咨询",
         navCapital: "资本市场",
@@ -530,7 +530,7 @@ const translations = {
         partnersSubtitle: "我们很自豪能与国内外领先组织合作并为其创造价值。",
         accessCenter: "访问中心",
         researchHubTitle: "研究中心",
-        researchHubSubtitle: "通往Starconsulting分析、数据和专有知识产品世界的大门。",
+        researchHubSubtitle: "通往OrigoX分析、数据和专有知识产品世界的大门。",
         marketSnapshotTitle: "市场快照",
         featuredThisMonth: "本月焦点",
         warRoomTeaserText: "我们正在分析各种情景和潜在影响。在战略会议室关注我们的思维过程。",
@@ -632,7 +632,7 @@ const translations = {
         }
     },
     ja: {
-        moduleTitle: "インベストメント・バンキング - Starconsulting",
+        moduleTitle: "インベストメント・バンキング - OrigoX",
         navResearchHub: "リサーチセンター",
         navMA: "M&Aアドバイザリー",
         navCapital: "資本市場",
@@ -654,7 +654,7 @@ const translations = {
         partnersSubtitle: "国内外の主要な組織と提携し、価値を創造できることを誇りに思います。",
         accessCenter: "センターにアクセス",
         researchHubTitle: "リサーチセンター",
-        researchHubSubtitle: "Starconsultingの分析、データ、独自の知的製品の世界へのゲートウェイ。",
+        researchHubSubtitle: "OrigoXの分析、データ、独自の知的製品の世界へのゲートウェイ。",
         marketSnapshotTitle: "マーケットスナップショット",
         featuredThisMonth: "今月の特集",
         warRoomTeaserText: "シナリオと潜在的な影響を分析しています。ウォー・ルームで私たちの思考プロセスをフォローしてください。",
@@ -762,17 +762,17 @@ const translations = {
 const servicesData = {
     'ma': {
         icon: IconMA,
-        saleKitUrl: "/downloads/starconsulting-ma-salekit.pdf"
+        saleKitUrl: "/downloads/OrigoX-ma-salekit.pdf"
     },
     'capital': {
         icon: IconCapital,
-        saleKitUrl: "/downloads/starconsulting-capital-salekit.pdf"
+        saleKitUrl: "/downloads/OrigoX-capital-salekit.pdf"
     },
 };
 
 // --- MOCK NEWS DATABASE ---
 const allMockNewsData = [
-    { id: 1, category: "Kinh tế vĩ mô", date: "29 tháng 8, 2025", title: "Phân tích tác động của chính sách tiền tệ mới đến thị trường bất động sản", author: "TS. Nguyễn An", excerpt: "Ngân hàng Nhà nước vừa công bố các điều chỉnh mới trong chính sách tiền tệ, dự kiến sẽ có những ảnh hưởng đa chiều...", imageUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070&auto=format&fit=crop", content: "Nội dung chi tiết bài viết 1... Ngân hàng Nhà nước vừa công bố các điều chỉnh mới trong chính sách tiền tệ, dự kiến sẽ có những ảnh hưởng đa chiều đến thị trường bất động sản. Các chuyên gia nhận định rằng việc thắt chặt tín dụng có thể làm giảm nguồn cung vốn cho các dự án mới, từ đó làm chậm lại tốc độ tăng trưởng của thị trường trong ngắn hạn. Tuy nhiên, về dài hạn, chính sách này được kỳ vọng sẽ giúp thị trường phát triển bền vững hơn, giảm thiểu rủi ro bong bóng và bảo vệ người mua nhà. Starconsulting sẽ tiếp tục theo dõi và cung cấp các phân tích chuyên sâu về vấn đề này trong các báo cáo sắp tới." },
+    { id: 1, category: "Kinh tế vĩ mô", date: "29 tháng 8, 2025", title: "Phân tích tác động của chính sách tiền tệ mới đến thị trường bất động sản", author: "TS. Nguyễn An", excerpt: "Ngân hàng Nhà nước vừa công bố các điều chỉnh mới trong chính sách tiền tệ, dự kiến sẽ có những ảnh hưởng đa chiều...", imageUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=2070&auto=format&fit=crop", content: "Nội dung chi tiết bài viết 1... Ngân hàng Nhà nước vừa công bố các điều chỉnh mới trong chính sách tiền tệ, dự kiến sẽ có những ảnh hưởng đa chiều đến thị trường bất động sản. Các chuyên gia nhận định rằng việc thắt chặt tín dụng có thể làm giảm nguồn cung vốn cho các dự án mới, từ đó làm chậm lại tốc độ tăng trưởng của thị trường trong ngắn hạn. Tuy nhiên, về dài hạn, chính sách này được kỳ vọng sẽ giúp thị trường phát triển bền vững hơn, giảm thiểu rủi ro bong bóng và bảo vệ người mua nhà. OrigoX sẽ tiếp tục theo dõi và cung cấp các phân tích chuyên sâu về vấn đề này trong các báo cáo sắp tới." },
     { id: 2, category: "Thị trường Quốc tế", date: "28 tháng 8, 2025", title: "Căng thẳng thương mại Mỹ-Trung: Cơ hội và thách thức cho chuỗi cung ứng Việt Nam", author: "Chuyên gia Lê Minh", excerpt: "Những diễn biến mới trong quan hệ thương mại Mỹ-Trung đang tạo ra một làn sóng dịch chuyển chuỗi cung ứng...", imageUrl: "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?q=80&w=2070&auto=format&fit=crop", content: "Nội dung chi tiết bài viết 2... Những diễn biến mới trong quan hệ thương mại Mỹ-Trung đang tạo ra một làn sóng dịch chuyển chuỗi cung ứng toàn cầu, và Việt Nam đang đứng trước cả cơ hội và thách thức lớn. Về cơ hội, Việt Nam có thể trở thành một trung tâm sản xuất mới, thu hút dòng vốn FDI từ các tập đoàn đa quốc gia muốn đa dạng hóa rủi ro. Tuy nhiên, thách thức cũng không nhỏ, bao gồm áp lực về hạ tầng, nguồn nhân lực chất lượng cao và nguy cơ bị cuốn vào các biện pháp phòng vệ thương mại. Doanh nghiệp Việt Nam cần có chiến lược rõ ràng để tận dụng cơ hội và đối phó với thách thức này." },
     { id: 3, category: "Tài chính Doanh nghiệp", date: "27 tháng 8, 2025", title: "Xu hướng phát hành trái phiếu xanh tại các doanh nghiệp năng lượng tái tạo", author: "ThS. Trần Bích Hạnh", excerpt: "Trái phiếu xanh đang trở thành một kênh huy động vốn hấp dẫn cho các dự án phát triển bền vững...", imageUrl: "https://images.unsplash.com/photo-1622969637422-55e1a3c02613?q=80&w=1964&auto=format&fit=crop", content: "Nội dung chi tiết bài viết 3... Trái phiếu xanh đang trở thành một kênh huy động vốn hấp dẫn cho các dự án phát triển bền vững, đặc biệt trong lĩnh vực năng lượng tái tạo. Với cam kết mạnh mẽ của chính phủ về Net-zero, nhu cầu vốn cho các dự án điện gió, điện mặt trời là rất lớn. Việc phát hành thành công trái phiếu xanh không chỉ giúp doanh nghiệp huy động được nguồn vốn dài hạn với chi phí hợp lý mà còn nâng cao uy tín và hình ảnh thương hiệu trên trường quốc tế. Báo cáo của chúng tôi sẽ phân tích chi tiết về quy trình, điều kiện và lợi ích của việc phát hành loại hình trái phiếu này." },
     { id: 4, category: "Kinh tế vĩ mô", date: "25 tháng 8, 2025", title: "Dự báo lạm phát cuối năm và các kịch bản cho doanh nghiệp sản xuất", author: "TS. Nguyễn An", excerpt: "Với các biến số từ giá năng lượng và chuỗi cung ứng toàn cầu, lạm phát cuối năm 2025 được dự báo sẽ có nhiều kịch bản...", imageUrl: "https://images.unsplash.com/photo-1559526324-c1f275fbfa32?q=80&w=2070&auto=format&fit=crop", content: "Nội dung chi tiết bài viết 4... Với các biến số từ giá năng lượng và chuỗi cung ứng toàn cầu, lạm phát cuối năm 2025 được dự báo sẽ có nhiều kịch bản. Trong kịch bản cơ sở, chúng tôi dự báo lạm phát sẽ được kiểm soát dưới mức 4%. Tuy nhiên, doanh nghiệp sản xuất cần chuẩn bị cho cả kịch bản xấu hơn, khi giá nguyên vật liệu đầu vào tiếp tục tăng. Các biện pháp quản trị rủi ro như ký kết hợp đồng dài hạn với nhà cung cấp, tối ưu hóa quy trình sản xuất và quản lý hàng tồn kho hiệu quả sẽ là chì khóa để vượt qua giai đoạn khó khăn này." },
@@ -786,7 +786,7 @@ const expertsData = [
         name: "Chuyên gia A",
         title: "[Chức danh]",
         imageUrl: "https://placehold.co/400x500/e2e8f0/4a5568?text=Profile",
-        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại Starconsulting.]",
+        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại OrigoX.]",
         philosophy: "[Trích dẫn hoặc triết lý làm việc thể hiện quan điểm và phương pháp tiếp cận của chuyên gia.]",
         linkedinUrl: "#",
         team: "leadership"
@@ -796,7 +796,7 @@ const expertsData = [
         name: "Chuyên gia B",
         title: "[Chức danh]",
         imageUrl: "https://placehold.co/400x500/e2e8f0/4a5568?text=Profile",
-        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại Starconsulting.]",
+        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại OrigoX.]",
         philosophy: "[Trích dẫn hoặc triết lý làm việc thể hiện quan điểm và phương pháp tiếp cận của chuyên gia.]",
         linkedinUrl: "#",
         team: "leadership"
@@ -806,7 +806,7 @@ const expertsData = [
         name: "Chuyên gia C",
         title: "[Chức danh]",
         imageUrl: "https://placehold.co/400x500/e2e8f0/4a5568?text=Profile",
-        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại Starconsulting.]",
+        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại OrigoX.]",
         philosophy: "[Trích dẫn hoặc triết lý làm việc thể hiện quan điểm và phương pháp tiếp cận của chuyên gia.]",
         linkedinUrl: "#",
         team: "analysis"
@@ -816,7 +816,7 @@ const expertsData = [
         name: "Chuyên gia D",
         title: "[Chức danh]",
         imageUrl: "https://placehold.co/400x500/e2e8f0/4a5568?text=Profile",
-        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại Starconsulting.]",
+        bio: "[Mô tả kinh nghiệm và chuyên môn của chuyên gia. Nêu bật các thành tựu, các thương vụ nổi bật đã tham gia, và vai trò tại OrigoX.]",
         philosophy: "[Trích dẫn hoặc triết lý làm việc thể hiện quan điểm và phương pháp tiếp cận của chuyên gia.]",
         linkedinUrl: "#",
         team: "analysis"
@@ -860,7 +860,7 @@ const mockWarRoomData = {
         ]
     },
     verdict: {
-        title: "Nhận định của Starconsulting",
+        title: "Nhận định của OrigoX",
         author: "Ông Lê Minh, Trưởng phòng Phân tích Vĩ mô",
         conclusion: "Chúng tôi cho rằng lạm phát sẽ tiếp tục xu hướng giảm và được kiểm soát dưới mức mục tiêu 4% của chính phủ trong 6 tháng tới. Kịch bản lạc quan đang có trọng số cao hơn. Tuy nhiên, các doanh nghiệp vẫn cần theo dõi chặt chẽ biến động tỷ giá và xây dựng các kịch bản phòng ngừa rủi ro cho chi phí đầu vào."
     }
@@ -1060,13 +1060,13 @@ const ModuleFooter = () => (
         <div className="container mx-auto px-6 py-12">
              <div className="grid md:grid-cols-3 gap-8 items-center">
                 <div className="md:col-span-1">
-                    <h3 className="text-2xl font-bold">Starconsulting</h3>
+                    <h3 className="text-2xl font-bold">OrigoX</h3>
                     <p className="text-blue-300 font-semibold">Investment Banking Division</p>
                     <p className="text-gray-400 text-xs mt-2">CÔNG TY TNHH TƯ VẤN QUẢN TRỊ VÀ PHÁT TRIỂN NGUỒN NHÂN LỰC NGÔI SAO</p>
                 </div>
                 <div className="text-gray-300 text-sm md:col-span-1">
                      <h4 className="font-semibold text-white mb-3">Liên hệ</h4>
-                     <p className="flex items-center mb-2"><Mail className="w-4 h-4 mr-2 flex-shrink-0"/> info@starconsulting.com.vn</p>
+                     <p className="flex items-center mb-2"><Mail className="w-4 h-4 mr-2 flex-shrink-0"/> info@OrigoX.com.vn</p>
                      <p className="flex items-center"><Phone className="w-4 h-4 mr-2 flex-shrink-0"/> (+84) 0913075495</p>
                 </div>
                  <div className="text-gray-300 text-sm md:col-span-1">
@@ -1076,7 +1076,7 @@ const ModuleFooter = () => (
             </div>
             <div className="mt-8 border-t border-gray-700 pt-6 text-center text-gray-500 text-xs">
                 <p>Bản quyền © {new Date().getFullYear()} CÔNG TY TNHH TƯ VẤN QUẢN TRỊ VÀ PHÁT TRIỂN NGUỒN NHÂN LỰC NGÔI SAO. Bảo lưu mọi quyền.</p>
-                <p className="mt-1">Website: <a href="https://www.starconsulting.com.vn" target="_blank" rel="noopener noreferrer" className="hover:underline">www.starconsulting.com.vn</a></p>
+                <p className="mt-1">Website: <a href="https://www.OrigoX.com.vn" target="_blank" rel="noopener noreferrer" className="hover:underline">www.OrigoX.com.vn</a></p>
             </div>
         </div>
     </footer>
@@ -1909,7 +1909,7 @@ const ThematicReportsPage = ({ onNavigate }) => {
                     </button>
                     <div className="text-center mb-16">
                         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Báo cáo Chuyên đề Độc quyền</h1>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">Đi sâu vào các chủ đề nóng nhất của thị trường với những phân tích chuyên sâu, toàn diện từ đội ngũ chuyên gia của Starconsulting. Cung cấp thông tin của bạn để tải về các báo cáo giá trị này.</p>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">Đi sâu vào các chủ đề nóng nhất của thị trường với những phân tích chuyên sâu, toàn diện từ đội ngũ chuyên gia của OrigoX. Cung cấp thông tin của bạn để tải về các báo cáo giá trị này.</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1984,7 +1984,7 @@ const DialoguesPage = ({ onNavigate }) => {
                 </button>
                 <div className="text-center mb-16">
                     <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Đối thoại cùng Chuyên gia</h1>
-                    <p className="text-lg text-gray-600 max-w-3xl mx-auto">Lắng nghe các chuyên gia của Starconsulting thảo luận, tranh luận và đưa ra những góc nhìn đa chiều về các chủ đề nóng nhất của thị trường tài chính.</p>
+                    <p className="text-lg text-gray-600 max-w-3xl mx-auto">Lắng nghe các chuyên gia của OrigoX thảo luận, tranh luận và đưa ra những góc nhìn đa chiều về các chủ đề nóng nhất của thị trường tài chính.</p>
                 </div>
                 
                 {/* Featured Dialogue */}
@@ -2131,7 +2131,7 @@ const ContactPage = ({ t }) => {
                      <div className="space-y-8">
                          <div className="bg-white p-8 rounded-lg shadow-lg border">
                             <h3 className="text-2xl font-bold mb-4">Thông tin liên hệ</h3>
-                            <p className="flex items-start mb-4"><Mail className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <a href="mailto:info@starconsulting.com.vn" className="text-gray-700 hover:text-blue-600">info@starconsulting.com.vn</a></p>
+                            <p className="flex items-start mb-4"><Mail className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <a href="mailto:info@OrigoX.com.vn" className="text-gray-700 hover:text-blue-600">info@OrigoX.com.vn</a></p>
                             <p className="flex items-start mb-4"><Phone className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <span className="text-gray-700">(+84) 0913075495</span></p>
                              <p className="flex items-start"><Globe className="w-6 h-6 mr-3 text-blue-600 mt-1 flex-shrink-0"/> <span className="text-gray-700">Tầng 2, 29 Phố Lộc, Phường Xuân Đỉnh, Quận Bắc Từ Liêm, Thành phố Hà Nội</span></p>
                         </div>
@@ -2380,7 +2380,7 @@ const AIChatAssistant = ({ onNavigate, t }) => {
                 <div className="fixed bottom-24 right-6 w-96 max-w-[calc(100vw-3rem)] h-[600px] max-h-[calc(100vh-7.5rem)] bg-white rounded-lg shadow-2xl border border-gray-200 flex flex-col z-50">
                     <header className="bg-gray-800 text-white p-4 rounded-t-lg flex justify-between items-center">
                         <div>
-                            <h3 className="font-bold text-lg">Trợ lý AI Starconsulting</h3>
+                            <h3 className="font-bold text-lg">Trợ lý AI OrigoX</h3>
                             <p className="text-xs text-gray-300">Luôn sẵn sàng hỗ trợ</p>
                         </div>
                          <button onClick={() => setIsOpen(false)} className="text-gray-400 hover:text-white">
@@ -2671,7 +2671,7 @@ export default function App() {
             
              <header className="bg-gray-900 text-white sticky top-0 z-50">
                 <div className="container mx-auto px-6 flex justify-between items-center py-3">
-                    <h1 className="text-3xl font-bold tracking-wider cursor-pointer" onClick={() => handleNavigate('researchHub')}>STARCONSULTING</h1>
+                    <h1 className="text-3xl font-bold tracking-wider cursor-pointer" onClick={() => handleNavigate('researchHub')}>OrigoX</h1>
                     <div className="flex items-center space-x-4">
                         <SearchBar onNavigate={handleNavigate} onSearch={(query) => handleNavigate('searchResults', { query })} t={t} />
                         <LanguageSwitcher />
