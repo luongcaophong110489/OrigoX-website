@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft } from '../components/icons'; // Giả sử icons được export từ một file index
-import sanityClient from '../sanityClient'; // Import client đã cấu hình
+import { ArrowLeft } from '../components/icons';
+import sanityClient from '../sanityClient';
 
 const ResearchArchivePage = ({ onNavigate, title, subtitle }) => {
     const [posts, setPosts] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Query đồng bộ với schema post.js
         const query = `*[_type == "post"]{
             _id,
             title,
@@ -60,6 +59,7 @@ const ResearchArchivePage = ({ onNavigate, title, subtitle }) => {
                     {posts.map((post) => (
                         <button 
                             key={post._id} 
+                            onClick={() => onNavigate('newsDetail', { newsId: post.slug.current })} 
                             className="w-full text-left bg-white rounded-lg overflow-hidden border hover:shadow-xl transition-shadow duration-300"
                         >
                             <img src={post.imageUrl || 'https://placehold.co/600x400?text=No+Image'} alt={post.title} className="w-full h-48 object-cover" />
