@@ -3,24 +3,20 @@ import { ArrowLeft } from '../components/icons'; // Giả sử icons được ex
 import sanityClient from '../sanityClient'; // Import client đã cấu hình
 
 const ResearchArchivePage = ({ onNavigate, title, subtitle }) => {
-    // State để lưu trữ bài viết lấy từ Sanity
     const [posts, setPosts] = useState(null);
-    // State để theo dõi trạng thái tải dữ liệu
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Câu truy vấn GROQ để lấy tất cả các document có type là "post"
-        // và lấy các trường dữ liệu cần thiết.
-        // `author->{name}` là một cú pháp đặc biệt để lấy cả thông tin của tác giả liên quan.
+        // Query đồng bộ với schema post.js
         const query = `*[_type == "post"]{
             _id,
             title,
             slug,
-            publishDate,
+            publishedAt,
             excerpt,
             "authorName": author->name,
-            "imageUrl": coverImage.asset->url
-        }`;
+            "imageUrl": mainImage.asset->url
+        } | order(publishedAt desc)`;
 
         sanityClient.fetch(query)
             .then((data) => {
@@ -28,9 +24,8 @@ const ResearchArchivePage = ({ onNavigate, title, subtitle }) => {
                 setLoading(false);
             })
             .catch(console.error);
-    }, []); // Mảng rỗng `[]` đảm bảo useEffect chỉ chạy 1 lần
+    }, []);
 
-    // Hiển thị thông báo trong khi chờ dữ liệu
     if (loading) {
         return (
              <div className="bg-white">
@@ -41,7 +36,6 @@ const ResearchArchivePage = ({ onNavigate, title, subtitle }) => {
         );
     }
     
-    // Hiển thị khi không có bài viết nào
     if (!posts || posts.length === 0) {
         return (
              <div className="bg-white">
@@ -66,8 +60,6 @@ const ResearchArchivePage = ({ onNavigate, title, subtitle }) => {
                     {posts.map((post) => (
                         <button 
                             key={post._id} 
-                            // Tạm thời chưa navigate, sẽ cập nhật sau
-                            // onClick={() => onNavigate('newsDetail', { newsId: post.slug.current })} 
                             className="w-full text-left bg-white rounded-lg overflow-hidden border hover:shadow-xl transition-shadow duration-300"
                         >
                             <img src={post.imageUrl || 'https://placehold.co/600x400?text=No+Image'} alt={post.title} className="w-full h-48 object-cover" />
@@ -75,7 +67,7 @@ const ResearchArchivePage = ({ onNavigate, title, subtitle }) => {
                                 <h3 className="text-lg font-bold mb-3 h-14">{post.title}</h3>
                                 <p className="text-gray-600 text-sm mb-4">{post.excerpt}</p>
                                 <div className="text-xs text-gray-500">
-                                    <span>{post.authorName || 'N/A'}</span> &bull; <span>{new Date(post.publishDate).toLocaleDateString()}</span>
+                                    <span>{post.authorName || 'N/A'}</span> &bull; <span>{post.publishedAt ? new Date(post.publishedAt).toLocaleDateString() : 'N/A'}</span>
                                 </div>
                             </div>
                         </button>
